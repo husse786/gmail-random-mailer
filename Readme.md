@@ -77,7 +77,7 @@ python src/main.py --to recipient@example.com --count 10 --interval 120
 ### Environment Variables
 
 | Variable | Description | Required |
-|----------|-------------|----------|
+| ---------- | ------------- | ---------- |
 | `OPENAI_API_KEY` | Your OpenAI API key | Yes |
 | `GMAIL_ADDRESS` | Your Gmail address | Yes |
 | `GMAIL_APP_PASSWORD` | Gmail App Password | Yes |
