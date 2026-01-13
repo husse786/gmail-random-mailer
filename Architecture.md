@@ -15,6 +15,7 @@ This project follows a clean separation of concerns architecture with the follow
 ## Directory Structure
 
 ```
+
 gmail-random-mailer/
 ├── README.md
 ├── .gitignore
@@ -44,21 +45,26 @@ gmail-random-mailer/
 ## Component Responsibilities
 
 ### Configuration Layer (`config/`)
+
 - **settings.py**: Validates and exposes environment variables as typed configuration objects
 - **prompts.py**: Centralizes LLM prompt engineering and template management
 
 ### AI Layer (`ai/`)
+
 - **generator.py**: Abstracts OpenAI API interactions, implements retry logic and error handling
 
 ### Mail Layer (`mail/`)
+
 - **gmail_smtp.py**: Handles SMTP authentication, connection pooling, and message transmission
 - **models.py**: Defines domain models for email content and execution configuration
 
 ### Core Layer (`core/`)
+
 - **runner.py**: Implements execution workflow, state management, and graceful shutdown
 - **logger.py**: Provides structured logging for both CLI and UI contexts
 
 ### Application Layer
+
 - **main.py**: CLI interface with argument parsing
 - **app.py**: Interactive Streamlit dashboard for non-technical users
 
