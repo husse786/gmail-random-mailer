@@ -12,6 +12,7 @@ Regeln:
 - "body" 5-10 Sätze, klar strukturiert.
 - Inhalt soll harmlos sein (keine vertraulichen Daten, keine politischen Inhalte, keine Beleidigungen).
 - Variiere Themen/Betreffzeilen zwischen den E-Mails deutlich.
+- Generiere immer zufällige Namen für den Absender, um die E-Mails authentischer zu gestalten.
 
 Inhalt:
 - Thema der E-Mail: Chips oder Snacks aus der Sicht der Kunden. (z.B. Geschmack, Verpackung, Qualität, Inhaltstoffe, Produktion, Haltbarkeit, Trends, etc.)
